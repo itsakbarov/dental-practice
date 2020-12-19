@@ -19,7 +19,7 @@ body {
 .header {
     background: white;
     position: relative;
-    max-height: 140px;
+    max-height: 120px;
 }
 
 .header__inner {
@@ -138,7 +138,60 @@ body {
 .site-hero {
     background: url(../../imgs/site-hero.jpg);
     background-position: top;
-    background-size: contain;
+    box-sizing: border-box;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
+
+    .container {
+        padding-top: 310px;
+
+        .hero-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 10px;
+            color: #272727;
+        }
+
+        .hero-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 56px;
+            width: 543px;
+            margin-bottom: 27px;
+            text-transform: uppercase;
+            color: #272727;
+        }
+
+        .hero-btn {
+            padding: 24px 115px;
+            font-style: normal;
+            font-weight: normal;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 136px;
+            background: #0055B8;
+            border-radius: 5px;
+            color: #FFFFFF;
+        }
+
+        .prev {
+            padding: 25px 17px;
+            display: inline-block;
+            background: #FFD600;
+            border-radius: 5px;
+        }
+
+        .next {
+            padding: 25px 25px;
+            display: inline-block;
+            background: #FFD600;
+            border-radius: 5px;
+        }
+    }
 }
