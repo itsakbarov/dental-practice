@@ -571,3 +571,49 @@ body {
   background: #FFD600;
   border-radius: 5px;
 }
+
+.appointment__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.appointment__info .item {
+  background: #FFD600;
+  border-radius: 5px;
+  padding: 40px 50px 30px 50px;
+}
+
+.appointment__info .item .item__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.appointment__info .item .item__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #272727;
+}
+
+.appointment__info .item .item__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #272727;
+}
+
+.appointment__info .item:nth-child(2) {
+  background: #FFE040;
+}
+
+.appointment__info .item--absolute {
+  background: #0055B8;
+}
+
+.appointment__info .item--absolute form {
+  position: absolute;
+  width: 60%;
+}

@@ -195,3 +195,47 @@ body {
         }
     }
 }
+
+.appointment__info {
+    display: flex;
+
+    .item {
+        background: #FFD600;
+        border-radius: 5px;
+        padding: 40px 50px 30px 50px;
+
+        .item__img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .item__title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #272727;
+        }
+
+        .item__text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 25px;
+            color: #272727;
+        }
+
+        &:nth-child(2) {
+            background: #FFE040;
+        }
+
+        &--absolute {
+            background: #0055B8;
+            form{
+                position: absolute;
+                width: 60%;
+            }
+
+        }
+    }
+}
